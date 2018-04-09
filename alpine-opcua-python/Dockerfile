@@ -12,10 +12,12 @@ RUN \
     # 'opcua' install dependencies
     apk add --no-cache --virtual install_dependencies \
     g++ \
-    libxml2 \
     libxml2-dev \
-    libxslt \
     libxslt-dev \
+    # 'opcua' runtime dependencies
+    && apk add --no-cache \
+    libxml2 \
+    libxslt \
     \
     # install 'opcua'
     && pip3 install opcua==$OPCUA_VERSION \
