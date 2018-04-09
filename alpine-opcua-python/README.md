@@ -40,7 +40,7 @@ docker build
 
 3. Run the following command, 
 by using '--build-arg' argument to set specific 
-'OPCUA_VERSION'(refer 'ARG' in [Dockerfile](./Dockerfile) )  
+'OPCUA_VERSION' (refer 'ARG' in [Dockerfile](./Dockerfile) )  
 `
 docker build 
 --build-arg OPCUA_VERSION=<opcua-version>
