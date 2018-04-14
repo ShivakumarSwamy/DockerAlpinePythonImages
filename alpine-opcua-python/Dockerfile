@@ -1,7 +1,7 @@
 # Use Base image python 3.6 version with alpine linux version 3.7
 FROM python:3.6-alpine3.7
 
-LABEL maintainer="Shivakumar Swamy BG <shivsks.1994@gmail.com>"
+LABEL maintainer="Shivakumar Swamy B G <shivsks.1994@gmail.com>"
 
 # default ARG values
 ARG OPCUA_VERSION="0.95.1"

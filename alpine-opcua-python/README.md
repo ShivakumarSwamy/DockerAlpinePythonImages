@@ -1,10 +1,10 @@
-Alpine, OPCUA, Python - Docker Image
+Alpine, OPC UA, Python - Docker Image
 ==================================
 
 ### Versions Info
 
 * alpine: 3.7
-* opcua: 0.95.1(default version)
+* opcua: 0.95.1 (default version)
 * python: 3.6
 
 ### Pull latest image
@@ -39,7 +39,7 @@ docker build
 2. Navigate to directory where [Dockerfile](./Dockerfile) exists
 
 3. Run the following command, 
-by using '--build-arg' argument to set specific 
+by using `--build-arg` argument to set specific 
 'OPCUA_VERSION' (refer 'ARG' in [Dockerfile](./Dockerfile) )  
 `
 docker build 
