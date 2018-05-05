@@ -1,5 +1,5 @@
 ### Expected Behaviour
 
-### Actual Behaviuor
+### Actual Behaviour
 
-### Suggestions to implement the behaviour 
+### Suggestions to implement the behaviour
