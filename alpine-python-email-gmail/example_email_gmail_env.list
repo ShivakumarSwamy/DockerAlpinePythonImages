@@ -2,4 +2,4 @@ FROM_ADDRESS=<from-gmail-address>
 PASSWORD=<password>
 TO_ADDRESS=<to-email-address>
 SUBJECT=<subject-of-email>
-MESSAGE
+MESSAGE=<body-of-email>
