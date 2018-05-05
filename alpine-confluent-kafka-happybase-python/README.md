@@ -13,4 +13,4 @@ Versions Info
 Pull latest image
 -----------------
 
-`docker pull shivakumarswamy/confluentkafka-happybase`
+`docker pull shivakumarswamy/confluent-kafka-happybase`
